@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-image: url(img/5261629.png);
+    background-position: top left;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-color: rgb(19, 19, 59);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 50px;
+}
+.navbar .logo{
+    width: 160px;
+}
+.menubar ul li{
+    display: inline-block;
+    padding: 5px 30px;
+}
+.menubar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+.svg a svg{
+    width: 30px;
+}
+input{
+    width: 260px;
+    height: 35px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    text-align: right;
+    border: 3px solid #0adab9;
+    background: #1e2535;
+    
+}
+input::placeholder{
+    color: #fff;
+}
+input:focus{
+    outline: none;
+}
+.mobile img{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    color: #0adab9;
+    filter:invert(1);
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .left_header {
+    margin: 0 auto;
+    flex-basis: 40%;
+}
+.left_header h1{
+    font-size: 37px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+.left_header p{
+    font-size: 16px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+.left_header .getin{
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: #0adab9;
+    color: #1e2535;
+    border: none;
+}
+.social svg{
+    width: 35px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    background: #fff;
+}
+.header .right_header{
+    position: relative;
+    margin: 10px auto 0;
+    flex-basis: 60%;
+}
+.right_header .back {
+    position: relative;
+}
+.model {
+    width: 350px;
+    z-index: 111;
+}
+.circle {
+    position: absolute;
+    top: 24px;
+    left: -80px;
+    width: 466px;
+    z-index: -1;
+}
+.text {
+    width: 190px;
+    text-align: right;
+    position: absolute;
+    top: 60px;
+    right: -85px;
+}
+h3{
+    color: #fff;
+    font-size: 25px;
+    
+}
+
